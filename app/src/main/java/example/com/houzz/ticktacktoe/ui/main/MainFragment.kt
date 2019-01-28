@@ -28,7 +28,7 @@ class MainFragment : Fragment(), GameController {
         mainView = view.findViewById(R.id.mainView)
     }
 
-    override fun undo() = mainView.undo()
-    override fun redo() = mainView.redo()
-    override fun reset() = mainView.reset()
+    override fun undo() {}
+    override fun redo() {}
+    override fun reset() {}
 }
